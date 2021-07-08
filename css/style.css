@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+html,
+body {
+  color: #181f29;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+#fp-nav ul li a span {
+  background: #cb9406 !important;
+}
+
+#bg {
+  height: 786px;
+}
+
+/* -----------------------------Scroll down------------------------------------- */
+.center {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: -19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10000;
+  width: 100%;
+}
+.mouse {
+  width: 2.5rem;
+  height: 5rem;
+  border: 2px solid #ffffff;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+.mouse span {
+  width: 1rem;
+  height: 1rem;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel 1s linear infinite;
+}
+.arrow span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid transparent;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  transform: rotate(45deg);
+  animation: arrow-down 0.5s alternate infinite;
+}
+@keyframes move-wheel {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+}
+@keyframes arrow-down {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------scroll-top---------------------------------- */
+
+.scroll-top {
+  position: fixed;
+  bottom: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100000;
+  opacity: 0.5;
+}
+
+.arrow-line {
+  position: fixed;
+  bottom: 50%;
+  width: 80px;
+  height: 0px;
+  border: 1.5px solid #cb9406;
+  transform: rotate(90deg);
+  background: #cb9406;
+}
+
+.top {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-bottom: 3.5px solid #cb9406;
+  border-left: 3.5px solid #cb9406;
+
+  transform: rotate(135deg);
+
+  left: -0.5rem;
+  top: -42px;
+}
+.bottom {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-bottom: 3.5px solid #cb9406;
+  border-left: 3.5px solid #cb9406;
+  transform: rotate(-45deg);
+  left: -0.5rem;
+  top: 22px;
+}
+/* ---------------------------Full Page------------------------- */
+#fp-nav ul li a span {
+  background: red;
+}
+.fp-slidesNav ul li a span {
+  background: red;
+}
+
+/* ---------------------------------------Content 1-------------------------------------- */
+.col-sm-6 {
+  padding: 0;
+}
+
+/* ------------------------------Content 2-------------------------------------- */
+
+/* content 3 */
+#sec-4 .col {
+  padding: 0;
+  margin: 0 10.5px;
+  width: 380px;
+  height: 472px;
+
+  border: 1px solid #ca9407;
+  border-radius: 0px 80px;
+
+  text-align: center;
+  display: grid;
+  align-items: flex-end;
+  justify-content: center;
+
+  padding-top: 30px;
+}
+#sec-4 .col h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #181f29;
+}
+#sec-4 .col div {
+  width: 290px;
+}
+#sec-4 img {
+  margin: auto;
+}
+
+/*--------------------------------------CONTENT4---------------------------------------------*/
+#sec-5 p {
+  text-align: right;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+#sec-5 p a {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+
+  color: #181f29;
+}
+
+.fp-tableCell {
+  vertical-align: top !important;
+}
+
+/*----------Stack Card Slider------------*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #ca9407;
+  border-radius: 0px 80px;
+}
+
+/*----------------------------------------*/
+
+/* ---------------------------Responsivre------------------------------------------- */
+@media (max-width: 1024px) {
+  #sec-3 .row {
+    min-height: 95vh;
+  }
+}

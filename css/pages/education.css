@@ -1,0 +1,50 @@
+/* =============================================
+  # Education
+===============================================*/
+.kindergarten {
+  background-image: url("./../../images/giaoduc.png");
+}
+
+.primary-school {
+  background-image: url("./../../images/giaoduc2.png");
+
+  margin: 15px 0 0;
+}
+
+.visoffice .h5 .square,
+.startup-studio-info .h4 .square {
+  width: 269px;
+
+  right: -15px;
+  left: auto;
+  bottom: 22px;
+}
+
+/* =============================================
+  # Media
+===============================================*/
+@media (min-width: 768px) {
+  .primary-school {
+    margin: 0;
+  }
+
+  .section .img-thumb .square {
+    right: -34px;
+  }
+
+  .education .h5 .square {
+    height: 18px;
+  }
+
+  .visoffice .h5 .square,
+  .startup-studio-info .h4 .square {
+    height: 18px;
+
+    bottom: -2px;
+    right: 0;
+  }
+
+  .startup-studio-info .h4 .square {
+    width: 412px;
+  }
+}

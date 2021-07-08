@@ -1,0 +1,82 @@
+/* =============================================
+  # Reset browser properties default
+===============================================*/
+.h1,
+.h2,
+.h3,
+.h5,
+.h6 {
+  font-weight: 600;
+  margin: 0 0 8px;
+  position: relative;
+}
+
+.h4 {
+  position: relative;
+  font-weight: 500;
+  margin: 0 0 4px;
+}
+
+a {
+  color: #181f29;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a:hover {
+  color: #181f29;
+  text-decoration: none;
+}
+
+a.link-ext {
+  color: #5f8dcf !important;
+}
+
+a.link-primary:hover {
+  color: #cc9405 !important;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+dl,
+ol,
+ul {
+  margin: 0;
+
+  list-style: none;
+}
+
+.list-default {
+  list-style: none;
+}
+
+.list-default li {
+  font-size: 14px;
+  line-height: 19px;
+
+  margin-top: 8px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+/* =============================================
+  # Media
+===============================================*/
+@media (min-width: 768px) {
+  /* Begin list default  */
+  .list-default li {
+    margin-top: 16px;
+  }
+  /* End list default  */
+}
+
+@media (min-width: 992px) {
+  .row.row-lg-m-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

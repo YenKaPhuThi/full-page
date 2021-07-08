@@ -1,0 +1,372 @@
+/* =============================================
+  # Heading
+===============================================*/
+.h1 {
+  font-size: 18px !important;
+  line-height: 30px !important;
+}
+
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+/* =============================================
+  # Text color
+===============================================*/
+.text-primary {
+  color: #cc9405 !important;
+}
+
+.text-secondary {
+  color: #6c7a81 !important;
+}
+
+.text-mirage {
+  color: #19202a !important;
+}
+
+/* =============================================
+  # Text style
+===============================================*/
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+/* =============================================
+  # Text size
+===============================================*/
+.sub-title {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  margin: 0 0 8px;
+}
+
+.desc {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  text-align: justify;
+
+  margin-bottom: 8px;
+}
+
+.desc:last-child {
+  margin-bottom: 0;
+}
+
+.fs-12 {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* =============================================
+  # Margin & Padding
+===============================================*/
+.mb-4 {
+  margin-bottom: 4px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mr-4 {
+  margin-right: 4px !important;
+}
+
+.pl-8 {
+  padding-left: 8px !important;
+}
+
+/* =============================================
+  # Z-index
+===============================================*/
+.z-1 {
+  z-index: 1;
+}
+
+/* =============================================
+  # Square
+===============================================*/
+.square {
+  background: rgba(253, 227, 159, 0.5);
+
+  width: 300px;
+  height: 14px;
+
+  z-index: -1;
+}
+
+.h2 .square,
+.h3 .square,
+.h4 .square,
+.h5 .square {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.h3 .square {
+  width: 104px;
+}
+
+.square.s-lg-521 {
+  width: 185px;
+
+  left: -15px;
+}
+
+/* =============================================
+  # Button
+===============================================*/
+.btn {
+  padding: 4px 8px;
+}
+
+.btn.btn-primary {
+  background-color: #cc9405;
+  border-color: #cc9405;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+  box-shadow: 0 0 0 3.2px rgb(204 148 5 / 50%);
+}
+
+.btn.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #cc9405;
+  border-color: #cc9405;
+  box-shadow: 0 0 0 3.2px rgb(204 148 5 / 50%);
+}
+
+/* =============================================
+  # Fa icon
+===============================================*/
+.fas.s-22 {
+  font-size: 22px;
+  line-height: 20px;
+}
+
+/* =============================================
+  # Fa categories
+===============================================*/
+.categories {
+  border: 1px solid #c6c6c675;
+}
+
+.categories .categories-head {
+  border-bottom: 1px solid #c6c6c675;
+
+  padding: 5px 10px;
+}
+
+.categories .categories-body a {
+  display: block;
+
+  padding: 5px 10px;
+}
+
+/* =============================================
+  # Media
+===============================================*/
+@media (min-width: 768px) {
+  /* Begin heading */
+  .h1 {
+    font-size: 64px !important;
+    line-height: 87px !important;
+  }
+
+  .h2 {
+    font-size: 36px !important;
+    line-height: 49px !important;
+  }
+
+  .h3 {
+    font-size: 28px !important;
+    line-height: 38px !important;
+  }
+
+  .h4 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .h5 {
+    font-size: 21px !important;
+    line-height: 30px !important;
+  }
+
+  .h6 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  /* End heading */
+
+  /* Begin text style */
+  .text-md-uppercase {
+    text-transform: uppercase;
+  }
+  /* End text style */
+
+  /* Begin text size */
+  .sub-title {
+    line-height: 30px !important;
+  }
+  /* End text size */
+
+  /* Begin Margin & Padding */
+  .mt-md-20 {
+    margin-top: 20px !important;
+  }
+
+  .mt-md-24 {
+    margin-top: 24px !important;
+  }
+
+  .mt-md-52 {
+    margin-top: 52px !important;
+  }
+
+  .py-md-30 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  /* End Margin & Padding */
+
+  /* Begin width & height */
+  .h-md-per-100 {
+    height: 100%;
+  }
+
+  .w-md-71 {
+    width: 71%;
+  }
+
+  .max-w-abs-md-196 {
+    max-width: 196px;
+  }
+  /* End width & height*/
+
+  /* Begin visible */
+  .visible-xs {
+    display: none;
+  }
+  /* End visible */
+
+  /* Begin square */
+  .h2 .square {
+    width: 530px;
+    height: 40px;
+
+    margin-bottom: 32px;
+
+    position: absolute;
+    top: 71%;
+    left: 0;
+  }
+
+  .h3 .square {
+    width: 180px;
+    height: 28px;
+
+    bottom: -10px;
+  }
+
+  .square.s-lg-521 {
+    height: 28px;
+
+    left: -15px;
+  }
+
+  .h5 .square {
+    height: 18px;
+  }
+  /* End square */
+
+  /* Begin alignment */
+  .justify-md-content-center {
+    justify-content: center;
+  }
+  /* End alignment */
+}
+
+@media (min-width: 992px) {
+  /* Begin Margin & Padding */
+  .pr-lg-73 {
+    padding-right: 73px !important;
+  }
+
+  .pl-lg-73 {
+    padding-left: 73px !important;
+  }
+
+  .pl-lg-130 {
+    padding-left: 130px !important;
+  }
+
+  .pr-lg-130 {
+    padding-right: 130px !important;
+  }
+
+  .px-lg-30-130 {
+    padding-left: 30px !important;
+    padding-right: 130px !important;
+  }
+
+  .px-lg-130-30 {
+    padding-left: 130px !important;
+    padding-right: 30px !important;
+  }
+
+  .px-lg-130 {
+    padding-left: 130px !important;
+    padding-right: 130px !important;
+  }
+  /* End Margin & Padding */
+
+  /* Begin square */
+  .square.s-lg-521 {
+    width: 521px;
+
+    left: -125px;
+    top: auto;
+    bottom: -34px;
+  }
+  /* End square */
+}
+
+@media (max-width: 768px) {
+  /* Begin text align */
+  .text-xs-center {
+    text-align: center;
+  }
+
+  .flex-xs-column-reverse {
+    flex-flow: column-reverse;
+  }
+  /* End text align */
+
+  /* Begin height & width */
+  .h-abs-xs-312 {
+    height: 312px !important;
+  }
+  /* End height & width */
+
+  /* Begin Margin & Padding */
+  .mt-xs-15 {
+    margin-top: 15px !important;
+  }
+
+  .mt-xs-24 {
+    margin-top: 24px;
+  }
+  /* End Margin & Padding */
+}
